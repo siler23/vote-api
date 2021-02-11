@@ -1,4 +1,4 @@
-FROM registry.redhat.io/rhel8/go-toolset:latest as builder
+FROM docker.io/golang:latest
 
 WORKDIR /build
 ADD . /build/
